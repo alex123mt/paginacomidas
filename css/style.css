@@ -1,0 +1,308 @@
+.div_madre{
+    margin:auto;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+    height: 100vh;
+    width: 98%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    margin-top: 0.2%;
+}
+
+.cajamenu{
+    display: flex;
+    margin-left: 30%;
+    
+    width: 70%;
+    justify-content: space-around;
+}
+
+.caja1_header{
+    background-color: #92d050;
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    margin-top: 1%;
+
+}
+h1{
+    padding-top: 0.5%;
+    padding-left: 3%;  
+}
+.caja2_menu{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    margin-top: -0.2%;
+    justify-content: space-evenly;
+    padding-top: 2%;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+section{
+    width: 100%;
+    margin: auto;
+    height:78vh;
+    position: relative;
+}
+
+.sectionimagen{
+    position: absolute;
+    width: 100%;
+    height: 81vh;
+}
+
+.imagensection1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sectionh2{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left:40%;
+    z-index: 1;
+    font-size: 40px;
+}
+.sectionh3{
+    color: white;
+    position: relative;
+    top: 35%;
+    margin-left:43%;
+    z-index: 1;
+    font-size: 35px;
+}
+
+.sectionbtn{
+    background-color: #ed7d31;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left:44%;
+    z-index: 1;
+    padding: 1%;
+    font-size: 25px;
+    border-style: none;
+}
+
+.section2{
+    background-color: #e2f0d9;
+    height: 100vh;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec3cajaizq{
+    width: 55%;
+}
+
+.sec2cajader{
+    width: 35%;
+
+}
+
+.titulo2{
+    font-size: 40px;
+}
+
+.titulo3{
+    font-size: 30px;
+    color: #7f7f7f;
+    text-align: center;
+}
+.titulos{
+    text-align: center;
+}
+
+.textosec2{
+    margin-top: 0%;
+    width: 90%;
+    font-size: 25px;
+}
+.titulo3der{
+    margin-top: 1%;
+    margin-bottom: 15%;
+}
+
+.imagen1der{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen2der{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pder{
+    margin-top: -5%;
+    width: 40%;
+    font-size: 16px;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.section3{
+    display: flex;
+    background-color: #dae3f3;
+    height: 100vh;
+    width: 98%;
+    margin: auto;
+    margin-top: -1.34%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3izq{
+    width: 55%;
+    margin-left: 5%;
+}
+
+
+.sec3der{
+    width: 35%;
+    background-color: black;
+}
+
+.tabla{
+    border-collapse: collapse;
+    border: 4px solid white;
+    margin: auto;
+    width: 95%;
+}
+td{
+    border: 4px solid white;
+    padding: 3% 3% 3% 1%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.divredes{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.pderechasec3{
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+    margin-top: -4%;
+    margin-bottom: 4%;
+}
+
+form{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input{
+    width: 85%;
+    padding: 2%;
+    border-radius: 7px;
+    
+}
+
+input::placeholder {
+    color: #c5c5c5;
+    font-size: 18px;
+    padding-left: 2%;
+
+}
+
+button{
+    color: white;
+    background-color: #ed7d31;
+    padding: 2% 10% 2% 10%;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+
+.section4{
+    height: 100vh;
+    width: 98%;
+    margin: auto;
+}
+
+.subtitulos{
+    display: flex;
+    color: white;
+    height: 78vh;
+}
+
+.sub1{
+    background-color: #262626;
+    width: 24%;
+}
+
+.sub2{
+    background-color: #404040;
+    width: 26%;
+}
+
+.subtitulo1{
+    font-size: 45px;
+    padding-top: 30%;
+    padding-left: 25%;
+}
+.subtitulo2{
+    font-size: 45px;
+    padding-top: 28%;
+    padding-left: 25%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+}
+
+.divenlace1{
+    margin-left: 30%;
+}
+
+.ultimodiv{
+    margin-top: -1.7%;
+    color: white;
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    
+}
+
+.pultimo{
+    padding-top: 2%;
+    font-size: 18px;
+}
